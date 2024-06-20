@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+#cabecalho {
+    background-color: #5b08fc;
+    height: 60px;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+#tc {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 24px; /* Exemplo de tamanho de fonte */
+    margin: 0; /* Remover margem padrão */
+    text-indent: 15px;
+}
+
+#baki {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.artigos {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.artigos p {
+    font-family: 'Raleway', sans-serif;
+    color: #5b08fc;
+    text-align: center;
+    font-weight: bold;
+}
+
+.icons {
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin: auto;
+}
+.b{
+  background-color: #5b08fc;
+  height: 50px;
+  width: 200px;
+  color: white;
+  display: block;
+  margin: auto;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 150px;
+  transition: all 500ms;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.b:hover{
+  height: 60px;
+  width: 220px;
+}
+.discordlink{
+  text-decoration: none;
+}
+.instalink{
+  text-decoration: none;
+}
+.gitlink{
+  text-decoration: none;
+}
+#t1{
+  text-align: center;
+  font-size: 24px;
+  color: #5b08fc;
+  font-weight: bold;
+}
+.ullist{
+  list-style: none;
+  text-align: center;
+  font-size: 24px;
+  color: #5b08fc;
+  font-weight: bold;
+  padding-right: 33px;
+}
+.parag{
+  text-align: center;
+  color: #5b08fc;
+  font-weight: bold;
+}
+.list1{
+  padding-top: 5px;
+  text-align: center;
+  font-size: 18px;
+  color: #5b08fc;
+  font-weight: none;
+}
+.list{
+  text-align: center;
+  font-size: 18px;
+  color: #5b08fc;
+  font-weight: none;
+}
+.footertxt{
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+footer{
+  border: 0.1px solid white;
+  background-color: #5b08fc;
+}
